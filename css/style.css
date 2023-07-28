@@ -355,6 +355,11 @@ body{
         color: rgb(255, 192, 19);
 }
 
+#newsletter .form {
+        display: flex;
+        width: 40%;
+}
+
 #newsletter input {
         height: 3.125rem;
         padding: 0 1.25rem;
@@ -363,13 +368,59 @@ body{
         border: 1px solid transparent;
         border-radius: 4px;
         outline: none;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+}
+
+#newsletter button {
+        background-color: #1a4106;
+        color: #ffffff;
+        white-space: nowrap;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
 }
 
 
+/*footer section*/
 
+footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+}
 
+footer .col {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 22px;
+}
 
+footer .logo {
+        margin-bottom: 30px;
+}
 
+footer h4 {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size:  16px;
+        padding-bottom: 20px;
+}
+
+footer p {
+        font-size: 13px;
+        margin: 0 0 8px 0;
+
+}
+
+footer a{
+        font-size: 13px;
+        text-decoration: none;
+        color: black;
+        margin-bottom: 10px;
+
+}
+
+footer .follo
 
 
 
