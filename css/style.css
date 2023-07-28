@@ -221,7 +221,7 @@ body{
         font-size: 30px;
         padding: 10px 0;
 }
-#banner h2 sapn{
+#banner h2 span{
         color: rgb(191, 33, 33);
 }
 
@@ -319,7 +319,7 @@ body{
 }
 
 #banner-three .banner-box-two {
-        background-image:  background-image: url(../images/banner/b4.jpg);
+        background-image: url(../images/banner/b4.jpg);
 }
 
 #banner-three .banner-box-three {
@@ -385,7 +385,7 @@ body{
 
 footer {
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
         justify-content: space-between;
 }
 
@@ -420,8 +420,36 @@ footer a{
 
 }
 
-footer .follo
+footer .follow {
+        margin-top: 20px;
+}
 
+footer .follow .icon{
+        color: #465b52;
+        padding-right: 4px;
+        cursor: pointer;
+}
+
+footer .apps .row img {
+        border: 1px solid green;
+        border-radius: 6px;
+
+}
+
+footer .apps  img {
+        margin: 10px 0 15px 0;
+}
+
+footer .follow .icon:hover , footer a:hover {
+        color: #1a4106;
+}
+
+footer .copyright {
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 800;
+}
 
 
 
