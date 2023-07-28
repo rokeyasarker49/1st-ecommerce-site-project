@@ -252,16 +252,9 @@ body{
 }
 
 #banner-two .banner-box-two {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex;
-        padding: 30px;
+      
         background-image: url(../images/banner/b10.jpg);
-        min-width: 580px;
-        height: 50vh;
-        background-size: cover;
-        background-position: center;
+        
 }
 
 #banner-two h4{
@@ -288,9 +281,49 @@ body{
         border: 1px solid green;
 }
 
-#banner-two .banner-box-two:hover button {
-        background-color: green;
-        border: 1px solid green;
+
+
+/*3rd banner section*/
+
+#banner-three {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 0 80px;
+}
+
+#banner-three .banner-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex;
+        padding: 20px;
+        background-image: url(../images/banner/b7.jpg);
+        min-width: 30%;
+        height: 30vh;
+        background-size: cover;
+        background-position: center;
+        margin-bottom: 20px;
+}
+
+#banner-three h2 {
+        color: white;
+        font-size: 22px;
+        font-weight: 800;
+}
+
+#banner-three h3 {
+        color: rgb(236, 55, 55);
+        font-size: 15px;
+        font-weight: 800;
+}
+
+#banner-three .banner-box-two {
+        background-image:  background-image: url(../images/banner/b4.jpg);
+}
+
+#banner-three .banner-box-three {
+        background-image:  background-image: url(../images/banner/b18.jpg);
 }
 
 
@@ -337,7 +370,7 @@ button .white {
         padding: 11px 18px;
         color: rgb(255, 248, 248);
         background-color: transparent;
-       
+        
         cursor: pointer;
         border: 1px solid white;
         outline: none;
