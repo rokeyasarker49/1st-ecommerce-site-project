@@ -4,6 +4,11 @@ body{
 
 /*Navbar Section*/
 
+.navbar-expand-lg .navbar-collapse  {
+        justify-content: end;
+}
+    
+
 #header {
         display: flex;
         align-items: center;
@@ -504,3 +509,6 @@ h6{
         font-weight: 700;
         font-size: 12px;
 }
+
+
+
