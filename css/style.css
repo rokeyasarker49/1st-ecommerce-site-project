@@ -407,21 +407,22 @@ footer .logo {
 
 footer h4 {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size:  16px;
+        font-size:  26px;
         padding-bottom: 20px;
 }
 
 footer p {
-        font-size: 13px;
+        font-size: 16px;
         margin: 0 0 8px 0;
 
 }
 
 footer a{
-        font-size: 13px;
+        font-size: 16px;
         text-decoration: none;
         color: black;
         margin-bottom: 10px;
+        font-weight: 300;
 
 }
 
@@ -433,6 +434,7 @@ footer .follow .icon{
         color: #465b52;
         padding-right: 4px;
         cursor: pointer;
+        font-weight: 400;
 }
 
 footer .apps .row img {
@@ -511,4 +513,110 @@ h6{
 }
 
 
+/*shop page*/
 
+#shop-hero {
+        background-image: url(../images/banner/b1.jpg);
+        width: 100%;
+        height: 40vh;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+}
+
+#shop-hero h1 {
+        color: aliceblue;
+        font-size: 30px;
+        font-weight: 600;
+}
+
+#shop-hero p {
+        color: aliceblue;
+        font-size: 14px;
+}
+
+#pagination {
+        text-align: center;
+}
+
+#pagination a {
+        text-decoration: none;
+        background-color: #1a4106;
+        padding: 15px 20px;
+        border-radius: 4px;
+        color: white;
+        font-weight: 600;
+}
+
+#pagination a .icon {
+        font-size: 16px;
+        font-weight: 600;
+}
+
+/*product*/
+
+#details {
+        display: flex;
+        margin-top: 22px;
+}
+
+#details .single-image {
+        width: 40%;
+        margin-right: 50px;
+}
+#MainImg {
+        padding-bottom: 3px;
+}
+.mini-img-group {
+        display: flex;
+        justify-content: space-around;
+}
+
+.mini-img-col {
+        flex-basis: 24%;
+        cursor: pointer;
+        padding: 3px 0 0 3px;
+}
+
+#details .single-details {
+        width: 50%;
+        padding-top: 30px;
+}
+
+#details .single-details h4 {
+        padding: 40px 0 20px 0;
+}
+
+#details .single-details h2 {
+        font-size: 28px;
+}
+
+#details .single-details select {
+        display: block;
+        padding: 5px 10px;
+        margin-bottom: 10px;
+}
+
+#details .single-details input {
+        width: 50%;
+        height: 46px;
+        margin-right: 10px;
+        font-size: 15px;
+        padding-left: 10px;
+}
+
+#details .single-details input:focus {
+        outline: none;
+}
+
+#details .single-details button {
+        background-color: #1a4106;
+        color: #fffefe;
+
+}
+
+#details .single-details span {
+        line-height: 25px;
+}

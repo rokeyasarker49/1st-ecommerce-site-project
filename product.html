@@ -45,10 +45,10 @@
                         <img src="./images/products/p1.jpg" width="100%" id="MainImg">
                         <div class="mini-img-group">
                                 <div class="mini-img-col">
-                                        <img src="./images/products/p2.jpg" width="100%" class="mini-img">
+                                        <img src="./images/products/p1.jpg" width="100%" class="mini-img">
                                 </div>
                                 <div class="mini-img-col">
-                                        <img src="./images/products/p3.jpg" width="100%" class="mini-img">
+                                        <img src="./images/products/p2.jpg" width="100%" class="mini-img">
                                 </div>
                                 <div class="mini-img-col">
                                         <img src="./images/products/p4.jpg" width="100%" class="mini-img">
@@ -237,20 +237,20 @@
         <!--JavaScript Code-->
 
         <script>
-                var MainImg = document.getElementById("MainImg");
-                var smalling = document.getElementsByClassName("mini-img");
+                var MainImg = document.getElementById('MainImg');
+                var miniimg = document.getElementsByClassName('mini-img');
 
-                smalling[0].oneclick = function(){
-                        MainImg.src = smalling[0].src;
+                miniimg[0].onclick = function(){
+                        MainImg.src = miniimg[0].src;
                 }
-                smalling[1].oneclick = function(){
-                        MainImg.src = smalling[1].src;
+                miniimg[1].onclick = function(){
+                        MainImg.src = miniimg[1].src;
                 }
-                smalling[2].oneclick = function(){
-                        MainImg.src = smalling[2].src;
+                miniimg[2].onclick = function(){
+                        MainImg.src = miniimg[2].src;
                 }
-                smalling[3].oneclick = function(){
-                        MainImg.src = smalling[3].src;
+                miniimg[3].onclick = function(){
+                        MainImg.src = miniimg[3].src;
                 }
         </script>
 
